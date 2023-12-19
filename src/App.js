@@ -7,7 +7,7 @@ const App=()=>{
 
   return (
     <div>
-          <ImageSerach  setImages={setImages}/> 
+          <ImageSerach  setImages={setImages} images={images}/> 
           <ImageList images={images}/>
     </div>
   );
