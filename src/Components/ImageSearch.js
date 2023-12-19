@@ -16,7 +16,7 @@ const ImageSearch=({images, setImages})=>{
 
     useEffect(()=>{
         setPage(1)
-    },[page])
+    },[searchTerm])
    
 
 // todo:  remove access key from here and put it in .env file
