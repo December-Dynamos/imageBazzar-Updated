@@ -7,6 +7,7 @@ const App=()=>{
 
   return (
     <div>
+          <p>Key = {process.env.REACT_APP_SECRET}</p>
           <ImageSerach  setImages={setImages} images={images}/> 
           <ImageList images={images}/>
     </div>
