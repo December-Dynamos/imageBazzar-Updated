@@ -68,7 +68,7 @@ const ImageSearch=({images, setImages})=>{
     return(
         <div>
             <form onSubmit={(e)=>fetchImages(e,"submit")}>
-                <input type="text" placeholder="Enter search ..."
+                <input type="text" placeholder="Enter Images ..."
                     onChange={(e)=>setSearchTerm(e.target.value)}
                     value={searchTerm}
                 />
